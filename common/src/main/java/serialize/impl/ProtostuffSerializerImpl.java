@@ -18,9 +18,9 @@ import java.util.concurrent.ConcurrentHashMap;
 public class ProtostuffSerializerImpl implements Serializer {
 
     //避免每次序列化都重新申请Buffer空间
-    private LinkedBuffer buffer = LinkedBuffer.allocate(LinkedBuffer.DEFAULT_BUFFER_SIZE);
+    private final LinkedBuffer buffer = LinkedBuffer.allocate(LinkedBuffer.DEFAULT_BUFFER_SIZE);
     //缓存Schema
-    private Map<Class<?>, Schema<?>> schemas = new ConcurrentHashMap<>();
+    private final Map<Class<?>, Schema<?>> schemas = new ConcurrentHashMap<>();
 
     @Override
     @SuppressWarnings("unchecked")
