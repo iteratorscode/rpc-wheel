@@ -1,6 +1,6 @@
 package com.iterators.listener;
 
-import manager.ServiceManager;
+import com.iterators.common.manager.ServiceManager;
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
@@ -8,7 +8,7 @@ import org.springframework.context.ApplicationEvent;
 import org.springframework.context.ApplicationListener;
 import org.springframework.context.event.ContextClosedEvent;
 import org.springframework.context.event.ContextRefreshedEvent;
-import transport.RpcServer;
+import com.iterators.common.transport.RpcServer;
 
 import java.util.Objects;
 

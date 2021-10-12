@@ -1,4 +1,4 @@
-package manager;
+package com.iterators.common.manager;
 
 import java.util.ServiceLoader;
 import java.util.concurrent.ConcurrentHashMap;
