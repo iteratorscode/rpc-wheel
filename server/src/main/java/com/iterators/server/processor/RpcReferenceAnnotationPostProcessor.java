@@ -1,4 +1,4 @@
-package com.iterators.processor;
+package com.iterators.server.processor;
 
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanFactoryPostProcessor;

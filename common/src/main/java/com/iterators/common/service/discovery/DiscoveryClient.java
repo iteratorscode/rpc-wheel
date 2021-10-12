@@ -1,6 +1,6 @@
-package service.discovery;
+package com.iterators.common.service.discovery;
 
-import service.instance.ServiceInstance;
+import com.iterators.common.service.instance.ServiceInstance;
 
 import java.util.List;
 

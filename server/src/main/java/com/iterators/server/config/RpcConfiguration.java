@@ -1,6 +1,6 @@
-package com.iterators.config;
+package com.iterators.server.config;
 
-import com.iterators.annotation.EnableRpcConfig;
+import com.iterators.server.annotation.EnableRpcConfig;
 import org.springframework.context.annotation.Configuration;
 
 /**

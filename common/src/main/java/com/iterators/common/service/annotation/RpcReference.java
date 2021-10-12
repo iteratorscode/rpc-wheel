@@ -1,4 +1,4 @@
-package service.annotation;
+package com.iterators.common.service.annotation;
 
 /**
  * Rpc服务引用

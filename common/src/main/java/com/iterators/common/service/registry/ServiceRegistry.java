@@ -1,4 +1,4 @@
-package service.registry;
+package com.iterators.common.service.registry;
 
 /**
  * 服务注册

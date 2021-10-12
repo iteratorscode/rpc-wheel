@@ -1,4 +1,4 @@
-package com.iterators.annotation;
+package com.iterators.server.annotation;
 
 import org.springframework.context.annotation.Import;
 

@@ -1,4 +1,4 @@
-package consts;
+package com.iterators.common.consts;
 
 /**
  * Rpc服务常量

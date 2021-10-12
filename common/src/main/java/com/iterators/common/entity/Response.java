@@ -1,4 +1,4 @@
-package entity;
+package com.iterators.common.entity;
 
 import lombok.Data;
 

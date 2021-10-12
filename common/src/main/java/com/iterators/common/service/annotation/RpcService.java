@@ -1,4 +1,4 @@
-package service.annotation;
+package com.iterators.common.service.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

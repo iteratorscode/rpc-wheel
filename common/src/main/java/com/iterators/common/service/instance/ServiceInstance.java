@@ -1,4 +1,4 @@
-package service.instance;
+package com.iterators.common.service.instance;
 
 import java.net.URI;
 import java.util.Map;

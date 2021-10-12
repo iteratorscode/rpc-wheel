@@ -1,5 +1,6 @@
-package com.iterators.server;
+package com.iterators.server.transport;
 
+import com.iterators.common.transport.RpcServer;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.Channel;
 import io.netty.channel.ChannelInitializer;
@@ -9,7 +10,6 @@ import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
 import lombok.extern.slf4j.Slf4j;
-import com.iterators.common.transport.RpcServer;
 
 /**
  * RPC 服务

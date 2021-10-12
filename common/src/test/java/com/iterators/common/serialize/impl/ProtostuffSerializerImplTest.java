@@ -1,6 +1,6 @@
-package serialize.impl;
+package com.iterators.common.serialize.impl;
 
-import entity.Request;
+import com.iterators.common.entity.Request;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;

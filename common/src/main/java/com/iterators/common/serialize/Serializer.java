@@ -1,4 +1,4 @@
-package serialize;
+package com.iterators.common.serialize;
 
 /**
  * 序列化

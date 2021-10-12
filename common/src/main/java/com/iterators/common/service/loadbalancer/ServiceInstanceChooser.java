@@ -1,6 +1,6 @@
-package service.loadbalancer;
+package com.iterators.common.service.loadbalancer;
 
-import service.instance.ServiceInstance;
+import com.iterators.common.service.instance.ServiceInstance;
 
 /**
  * 服务选择器

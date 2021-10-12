@@ -1,10 +1,10 @@
-package serialize.impl;
+package com.iterators.common.serialize.impl;
 
 import io.protostuff.LinkedBuffer;
 import io.protostuff.ProtostuffIOUtil;
 import io.protostuff.Schema;
 import io.protostuff.runtime.RuntimeSchema;
-import serialize.Serializer;
+import com.iterators.common.serialize.Serializer;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;

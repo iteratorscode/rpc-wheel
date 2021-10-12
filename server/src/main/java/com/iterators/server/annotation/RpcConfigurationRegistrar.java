@@ -1,8 +1,8 @@
-package com.iterators.annotation;
+package com.iterators.server.annotation;
 
-import com.iterators.listener.RpcServerBootstrapApplicationListener;
-import com.iterators.processor.RpcReferenceAnnotationPostProcessor;
-import com.iterators.processor.RpcServiceAnnotationPostProcessor;
+import com.iterators.server.listener.RpcServerBootstrapApplicationListener;
+import com.iterators.server.processor.RpcReferenceAnnotationPostProcessor;
+import com.iterators.server.processor.RpcServiceAnnotationPostProcessor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.config.BeanDefinition;
 import org.springframework.beans.factory.support.BeanDefinitionRegistry;

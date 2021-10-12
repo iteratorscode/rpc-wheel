@@ -1,6 +1,6 @@
-package service.registry;
+package com.iterators.common.service.registry;
 
-import service.instance.ServiceInstance;
+import com.iterators.common.service.instance.ServiceInstance;
 
 /**
  * 注册信息
